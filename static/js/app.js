@@ -66,7 +66,7 @@ function buildCharts(sample) {
     let values = [trace]
 
     let layout = {
-      title: 'Bubble Chart',
+      title: 'Bacteria Cultures per Sample',
       xaxis: { title: 'OTU ID' },
       yaxis: { title: 'Sample Values' }
     }
