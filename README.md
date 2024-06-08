@@ -42,11 +42,13 @@ Sources:
 The syntax on how to get metada and samples information was obtained from Xpert Learning Assistant:
 
 "let metadata = field.find(item => item.id === sample)"
+
 "let bacteria = samples.find(item => item.id === String(sample))"
 
 The syntax on how to use the function "foreach" was obtained from Xpert Learning Assistant:
 
 "Object.entries(metadata).forEach(([key,value])=>{metadataPanel.append("p").text(`${key}: ${value}`)"
+
 "names.forEach(name => {dropdown.append("option").text(name).attr("value", name)})"
 
       
