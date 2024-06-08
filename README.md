@@ -51,6 +51,12 @@ The syntax on how to use the function "foreach" was obtained from Xpert Learning
 
 "names.forEach(name => {dropdown.append("option").text(name).attr("value", name)})"
 
+The syntax on how to sort and slice the information for the bar graph was obtained from Xpert Learning Assistant:
+
+    "let sortedData = sampleValues.slice().sort((a, b) => b - a);
+    let topValues = sortedData.slice(0, 10);
+    let topIds = otuIds.slice(0, 10)"
+
       
 
 
