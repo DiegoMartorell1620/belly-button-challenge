@@ -39,7 +39,7 @@ Deploy your app to a free static page hosting service, such as GitHub Pages. Sub
 
 Sources:
 
-The syntax on how to get metada and samples information was obtained from Xpert Learning Assistant:
+The syntax on how to get the metada and samples values was obtained from Xpert Learning Assistant:
 
 "let metadata = field.find(item => item.id === sample)"
 
